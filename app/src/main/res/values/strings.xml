@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Flipr Board</string>
+    <string name="hint_username">Username or Email-id</string>
+    <string name="hint_password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="or">OR</string>
+    <string name="forget_password"><u><b>Forget Password</b></u></string>
+    <string name="forget_password_plain_text">Forget Password</string>
+    <string name="sign_up">New Here ? Sign Up</string>
+    <string name="login">Login</string>
+    <string name="got_it">Got It</string>
+
+    <!--WALK_THROUGH_SLIDES-->
+    <string name="walk_through_heading_1">Welcome to Flipr Board</string>
+    <string name="walk_through_heading_2">Work with any team</string>
+    <string name="walk_through_heading_3">How does it work?</string>
+
+    <string name="walk_through_primary_1">Schedule you projects &amp; task</string>
+    <string name="walk_through_primary_2">Assign, Manage &amp; Monitor tasks of individual</string>
+    <string name="walk_through_primary_3">Boards, List and Cards are your friend</string>
+
+    <string name="walk_through_secondary_1"><b>Flipr Board</b> helps you to organize and prioritize your projects in a fun, flexible way.</string>
+    <string name="walk_through_secondary_2">With <b>Flipr Board</b> you can easily assign any task to your colleagues and check the progress of an individual of your team works.</string>
+    <string name="walk_through_secondary_3">Create your project board, assign list to project task, use cards for subtasks.</string>
+    <string name="register">Register</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="sign_up_text">Sign Up</string>
+    <string name="error_invalid_user">User not found. Please register to use service.</string>
+    <string name="error_invalid_credentials">Invalid Credentials, please enter correct details</string>
+    <string name="continue_text">Continue</string>
+    <string name="no_thanks">No thanks!</string>
+    <string name="ok">Ok</string>
+    <string name="okay">Okay</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_email_description">An email has been sent to your registered email-id, please follow instruction to reset password.</string>
+    <string name="go_to_login_page">Go to Login Page</string>
+    <string name="error_title_user_already_exist">User already exist</string>
+    <string name="error_msg_user_already_exist">You\'ve already registered with this email address, please use another one or go to login page.</string>
+    <string name="error_title_user_not_found">User not found</string>
+    <string name="error_msg_user_not_found">You\'re not recognised as a user, please enter registered email-id.</string>
+    <string name="sign_up_error">Sign Up Error</string>
+    <string name="error_title_network">Network Error</string>
+    <string name="error_msg_network">A network error has occurred, make sure your data connection is on.</string>
+    <string name="login_error">Login error</string>
+    <string name="error_firebase_authentication">Couldn\'t process the request, please try again later.</string>
+    <string name="login_page">Login page</string>
+    <string name="use_another">Use another</string>
+    <string name="error_title_invalid_credentials">Invalid Credentials</string>
+    <string name="error_msg_invalid_credentials">Please enter correct email id and password to login.</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="boards">Boards</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="press_again">Press Again</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="report_email_id">kaushikd875@gmail.com</string>
+    <string name="report_email_subject">Flipr Board : Bug Report</string>
+    <string name="report_email_text">Hello dev,</string>
+    <string name="report_title">Bug Report:</string>
+    <string name="logout">Logout</string>
+    <string name="help">Help</string>
+    <string name="bug_report">Report</string>
+    <string name="dev_info">Dev Info</string>
+    <string name="about">About</string>
+    <string name="logging_off">Logging off ...</string>
+    <string name="team_board">Team Board</string>
+    <string name="text_private">Private</string>
+    <string name="setting">Setting</string>
+    <string name="delete">Delete</string>
+    <string name="add_card">Add</string>
+    <string name="board_title">Board Title</string>
+    <string name="select_board_type">Select Board Type</string>
+    <string name="create">Create</string>
+    <string name="create_board">Create Board</string>
+    <string name="edit_card_description">Edit Card Description</string>
+    <string name="description">Description</string>
+    <string name="due_date">Due Date</string>
+    <string name="checklist">Checklist</string>
+    <string name="attachment">Attachment</string>
+    <string name="add_more">Add Details</string>
+    <string name="label">Label</string>
+    <string name="title">Title</string>
+    <string name="add_title">Add Title</string>
+    <string name="add_description">Add Description</string>
+    <string name="no_boards_found">No Boards Found!!</string>
+
+</resources>

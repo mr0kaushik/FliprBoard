@@ -1,0 +1,92 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#4AA857</item>
+    </style>
+
+
+
+    <style name="PrimaryTextWhiteLarge" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+    </style>
+
+
+    <style name="PrimaryTextWhite" parent="PrimaryTextWhiteLarge">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="PrimaryTextBlack" parent="PrimaryTextWhite">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+
+    <style name="SecondaryAppCompatTextView" parent="PrimaryTextWhiteLarge">
+        <item name="android:textColor">@color/colorGrey</item>
+    </style>
+
+
+    <style name="SecondaryAppCompatTextViewSmall" parent="SecondaryAppCompatTextView">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+    <style name="SecondaryAppCompatTextViewExtraSmall" parent="SecondaryAppCompatTextView">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/round_dialog</item>
+        <item name="behavior_peekHeight">900dp</item>
+        <!--        <item name="android:state_expanded">true</item>-->
+        <!--        <item name="android:offset" tools:ignore="NewApi">600</item>-->
+        <item name="android:defaultHeight" tools:targetApi="n">900dp</item>
+        <!--        <item name="height"-->
+    </style>
+
+    <style name="MaterialButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/material_button_state</item>
+
+    </style>
+
+    <style name="HintStyle" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="android:textColorHint">@color/colorGrey</item>
+    </style>
+
+    <style name="DrawerTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="lollipop">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent
+        </item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorGrey</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

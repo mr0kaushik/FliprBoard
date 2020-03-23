@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvTitle"
+        style="@style/PrimaryTextBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/walk_through_heading_1"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        app:fontFamily="@font/lato_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivWalkThrough"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/wt_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvPrimary"
+        style="@style/PrimaryTextBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/walk_through_primary_1"
+        android:textAlignment="center"
+        app:fontFamily="@font/lato_bold_700"
+        app:layout_constraintEnd_toEndOf="@+id/ivWalkThrough"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivWalkThrough" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvSecondary"
+        style="@style/SecondaryAppCompatTextViewExtraSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/walk_through_secondary_1"
+        android:textAlignment="center"
+        android:lineSpacingExtra="1dp"
+        app:layout_constraintEnd_toEndOf="@+id/tvPrimary"
+        app:layout_constraintStart_toStartOf="@+id/tvPrimary"
+        app:layout_constraintTop_toBottomOf="@+id/tvPrimary"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

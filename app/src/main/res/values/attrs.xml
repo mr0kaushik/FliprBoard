@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CardViewWithEditable">
+        <attr name="cardColor" format="color" />
+        <attr name="cardRadius" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension"/>
+        <attr name="text" format="string"/>
+        <attr name="textFontFamily" format="reference" />
+
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#689F38</color>
+    <color name="colorPrimaryLight">#DCEDC8</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorDivider">#BCBCBC</color>
+
+
+    <color name="bottom_bar">@color/colorPrimary</color>
+    <color name="colorOrange">#E49103</color>
+    <color name="colorBarEndGreen">#4ca957</color>
+    <color name="colorBarStartGreen">#74ae38</color>
+
+
+    <color name="colorBackground2">#f1f1f1</color>
+
+    <color name="colorTabSelected">#76ae37</color>
+
+    <color name="colorExtraLightGrey">#F1F1F1</color>
+
+    <color name="colorPrimaryGreen">#4AA858</color>
+
+    <color name="colorGrey">#686868</color>
+    <color name="colorGreyLight">#d3d3d3</color>
+    <color name="colorGreyExtraLight">#d7d7d7</color>
+
+    <color name="colorBlack">#000000</color>
+    <!--    #57AA4F-->
+    <!--    #5EAB4A-->
+    <!--    #6EAD3E-->
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="colorPartialTransparent">#55000000</color>
+
+    <array name="MatColorArray">
+        <item>#82B1FF</item>
+        <item>#9C27B0</item>
+        <item>#FF8A65</item>
+        <item>#EA80FC</item>
+        <item>#2196F3</item>
+        <item>#9C27B0</item>
+        <item>#3F51B5</item>
+        <item>#4CAF50</item>
+        <item>#FF6E40</item>
+        <item>#00B8D4</item>
+        <item>#607D8B</item>
+        <item>#FF5722</item>
+        <item>#8BC34A</item>
+        <item>#009688</item>
+        <item>#FF9800</item>
+        <item>#03A9F4</item>
+
+    </array>
+
+</resources>

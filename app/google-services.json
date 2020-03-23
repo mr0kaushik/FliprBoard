@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "862722585464",
+    "firebase_url": "https://flipr-board.firebaseio.com",
+    "project_id": "flipr-board",
+    "storage_bucket": "flipr-board.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862722585464:android:d55548d3c173e829f74e8d",
+        "android_client_info": {
+          "package_name": "com.board.flipr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862722585464-jdr1is54blqlvdnc2atejqo91f97v14j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.board.flipr",
+            "certificate_hash": "a3f52ade251a16b37b2f9565657f6fd9d9b97c2d"
+          }
+        },
+        {
+          "client_id": "862722585464-qgijfcvh6ngdo585j99kpff63t6vuogm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzvnqHzOGJW8Wjo73JdffTC3ZEMt17r18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862722585464-qgijfcvh6ngdo585j99kpff63t6vuogm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
